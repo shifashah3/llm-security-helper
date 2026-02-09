@@ -8,8 +8,8 @@ const App = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const API_ENDPOINT_CODE = 'https://subzero-hyperprophetically-marylou.ngrok-free.dev/analyze';
-  const API_ENDPOINT_SPEC = 'https://subzero-hyperprophetically-marylou.ngrok-free.dev/analyze';
+  const API_ENDPOINT_CODE = '';
+  const API_ENDPOINT_SPEC = '';
 
   // Normalize backend responses (JSON or raw text) into the shape the UI expects
   const normalizeResponseData = (raw, status) => {
